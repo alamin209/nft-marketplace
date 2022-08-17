@@ -1,0 +1,121 @@
+/* NFT Marketplace CSS*/
+@media only screen and (max-width: 500px) {
+  /* ================================COMMON-CSS-START=========================== */
+  
+  a{
+    text-decoration: none;
+    color: unset;
+  }
+  /* =============================COMMON-CSS-END============================== */
+  /* GET-STARTED-PAGE-START ***************************************************/
+  .nft_h_top_sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 39px;
+    margin-top: 10px;
+  }
+  .nft_h_top_sec p{
+    font-size: 12px;
+    font-weight: 700;
+  }
+   .nft_h_img{
+     text-align: center;
+   }
+   .nft_h_content{
+    padding: 1rem 2rem;
+   }
+  .nft_h_content h4{
+   font-family: Poppins;
+   font-weight: 600;
+   font-size: 32px;
+   line-height: 40px;
+   text-transform: capitalize;
+  }
+  .nft_single_color{
+      color: #8657FE;
+  }
+  .btn_color{
+    background-image: linear-gradient(#8657FE 0%, #4E1AD1 100% );
+    padding: 15px 50px;
+    color: #fff;
+    margin-right: 5px;
+    border: 0;
+    font-size: 16px;
+  }
+  .social_btn{
+    background-color: #F3F3F3;
+    font-size: 16px;
+  }
+  /* GET-STARTED-PAGE-END ***************************************************/
+  /* SIGN IN-PAGE-START ****************************************************/
+  ::placeholder{
+    color: #A8A8A8;
+  }
+  .nft_signin_content{
+    margin: 2rem;
+  }
+  .nft_signin_content h4{
+    font-size: 32px;
+    font-weight: 600;
+  }
+   .nft_signin_content p{
+    font-size: 16px;
+    text-transform: capitalize;
+  }
+  .nft_sign_input .form-control{
+    background-color: #e9ecef;
+    border: none;
+    padding: 15px;
+  }
+  .nft_sign_input .form-control:focus{
+    box-shadow: none; 
+  }
+  .nft_sign_input .input-group-text{
+    border: none;
+  }
+
+   .nft_sign_top_sec{
+    margin-bottom: 1rem;
+   }
+   .forget_pass{
+     text-align: end;
+     color: #8657FE;
+   }
+   .forget_pass p{
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+   }
+   .signin_btn{
+    background-color: #162234;
+    width: 100%;
+    color: #ffff;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+   }
+   .signin_failed_btn{
+    background-image: linear-gradient(#8657FE 0%, #4E1AD1 100% );
+    width: 100%;
+    color: #ffff;
+    height: 60px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    font-weight: 600;
+   }
+   .signin_or{
+     text-align: center;
+   }
+   .signin_or p{
+    margin: 1rem 0rem;
+    text-transform: capitalize;
+    font-weight: 600;
+   }
+    /* SIGN IN-PAGE-END ****************************************************/
+     /* FORGET PASSWORD-PAGE-START ****************************************************/
+     .send_section{
+       margin-top: 2rem;
+     }
+}
