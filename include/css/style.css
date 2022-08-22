@@ -11,7 +11,7 @@
   .nft_h_top_sec{
     display: flex;
     justify-content: space-between;
-    padding: 2px 39px;
+    padding: 2px 30px;
     margin-top: 10px;
   }
   .nft_h_top_sec p{
@@ -25,22 +25,31 @@
     padding: 1rem 2rem;
    }
   .nft_h_content h4{
-   font-family: Poppins;
-   font-weight: 600;
+   font-weight: 800;
    font-size: 32px;
    line-height: 40px;
    text-transform: capitalize;
   }
+  .nft_h_content p{
+    margin: 1rem 0rem 2rem 0rem;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+  }
   .nft_single_color{
       color: #8657FE;
+      font-weight: 700;
   }
   .btn_color{
-    background-image: linear-gradient(#8657FE 0%, #4E1AD1 100% );
-    padding: 15px 50px;
+    background: linear-gradient(180deg, #8657FE 0%, #4E1AD1 100%);
+    padding: 17px 55px;
     color: #fff;
     margin-right: 5px;
     border: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+
   }
   .social_btn{
     background-color: #F3F3F3;
@@ -56,11 +65,13 @@
   }
   .nft_signin_content h4{
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 700;
   }
    .nft_signin_content p{
     font-size: 16px;
     text-transform: capitalize;
+    line-height: 30px;
+    margin: 15px 0px 15px 0px;
   }
   .nft_sign_input .form-control{
     background-color: #e9ecef;
@@ -95,6 +106,9 @@
     font-size: 18px;
     font-weight: 600;
    }
+   .signin_btn:hover{
+    color: #ffff;
+   }
    .signin_failed_btn{
     background-image: linear-gradient(#8657FE 0%, #4E1AD1 100% );
     width: 100%;
@@ -104,6 +118,9 @@
     font-size: 18px;
     border: none;
     font-weight: 600;
+   }
+   .signin_failed_btn:hover{
+     color: #ffff;
    }
    .signin_or{
      text-align: center;
@@ -117,5 +134,29 @@
      /* FORGET PASSWORD-PAGE-START ****************************************************/
      .send_section{
        margin-top: 2rem;
+     }
+     .modal-header .btn-close{
+      background-color: #fdfdfd;
+      border-radius: 50%;
+      border: 1px solid black;
+     }
+     .emailsent_modal_header h5{
+      font-size: 25px;
+      font-weight: 700;
+
+     }
+     .emailsent_modal_body p{
+      text-align: center;
+     }
+ /* FORGET PASSWORD-PAGE-END ****************************************************/
+  /* ACCOUNT SUCCESSFUL  ****************************************************/
+     .account_successful_icon img{
+      padding: 5rem 0rem 1rem 5rem;
+     }
+     .account_successful_icon h5{
+      font-size: 25px;
+      margin-bottom: 2rem;
+      text-align: center;
+      font-weight: 700;
      }
 }
