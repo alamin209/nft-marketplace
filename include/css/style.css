@@ -159,4 +159,51 @@
       text-align: center;
       font-weight: 700;
      }
+
+     /* HOME-PAGE ********************************************/
+     .user_profile{
+      display: flex;
+      padding: 18px;
+      justify-content: space-between;
+     }
+     .user_profile p{
+       margin-bottom: 5px;
+     }
+     .user_profile h6{
+      font-size: 20px;
+      font-weight: 700;
+     }
+     .fliter_sec{
+      background-image: linear-gradient(#8657FE 0%, #4E1AD1 100% );
+      border-radius: 5px!important;
+     }
+     .search_form_control{
+      padding: 10px;
+      border-radius: 3px;
+      background-color: #F3F3F3;
+     }
+     .search_form_control:focus{
+      box-shadow: none; 
+    }
+    .active_circle{
+      position: relative;
+    }
+    .active_people_body{
+      background-color: #ffff;
+      border: none;
+    }
+    .active_people_body img{
+      border-radius: 50%;
+    }
+    .active_people_body h5{
+      font-size: 15px;
+      text-align: center;
+    }
+    .active_circle_text{
+      position: absolute;
+      top: 50%;
+      text-align: center;
+      color: #fff;
+    }
+
 }
