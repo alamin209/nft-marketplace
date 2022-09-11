@@ -322,4 +322,48 @@
   .rocket img{
    max-width: 65px;
   }
+
+  /* STATS SECTION */
+  .stats{
+    justify-content: center;
+    margin-left: 120px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .ranking_stats{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem;
+  }
+  .ranking_stats h5{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .ranking_stats .fa-sliders-h{
+    color: #8657FE;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .stats_table tr td{
+    font-weight: 700;
+    padding: 2rem 0rem;
+    font-size: 13px;
+    vertical-align: middle;
+  }
+  .stats_table tr td img{
+    border-radius: 50%;
+  }
+  .stats_table tr td:nth-child(1),
+  .stats_table tr td:nth-child(3){
+    padding: 2px;
+  }
+  .stats_table tr td:nth-child(4){
+    font-size: 11px;
+  }
+  .stats_table tr td .plus_color{
+    color: #00FF19;
+  }
+  .stats_table tr td .minus_color{
+    color: red;
+  }
 }
