@@ -139,6 +139,7 @@
       background-color: #fdfdfd;
       border-radius: 50%;
       border: 1px solid black;
+      padding: 7px;
      }
      .emailsent_modal_header h5{
       font-size: 25px;
@@ -344,6 +345,9 @@
     font-size: 28px;
     font-weight: 600;
   }
+  .stats_table{
+    position: relative;
+  }
   .stats_table tr td{
     font-weight: 700;
     padding: 2rem 0rem;
@@ -365,5 +369,43 @@
   }
   .stats_table tr td .minus_color{
     color: red;
+  }
+  /* STATS FILTER SECTION */
+  .filter_content_box{
+    position: relative;
+    border-radius: 8px;
+    border: unset;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .filter_option{
+    display: flex;
+    justify-content: space-between;
+  }
+  .filter_option h6{
+   font-weight: 700;
+   font-size: 15px;
+   padding: 1rem 0rem;
+  }
+  .filter_option .form-select{
+    border: unset;
+    color: #4E1AD1;
+    font-weight: 700;
+  }
+  .filter_option .form-select:focus {
+    border-color: unset;
+    outline: 0;
+    box-shadow: unset;
+}
+.apply_sec{
+    position: absolute;
+    width: 96%;
+    top: 77%;
+    left: 2%;
+}
+  /* STATS FILTERED SECTION */
+  .apply_completed{
+    position: fixed;
+    top: 80%;
+    width: 93%;
   }
 }

@@ -24,8 +24,59 @@
           </div>
         <div class="ranking_stats">
           <h5>Rankings</h5>
-          <i class="fas fa-sliders-h"></i>
+          <i class="fas fa-sliders-h" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
         </div> 
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content filter_content_box">
+                        <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Filter</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        <div class="row">
+                            <div class="filter_option">
+                            <h6>Categories</h6> 
+                            <div>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            </div>
+                            <div class="filter_option">
+                                <h6>Chains</h6> 
+                                <div>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                </div>
+                            </div>
+                            <div class="filter_option">
+                                <h6>Volume</h6> 
+                                <div>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Select</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="apply_sec">
+                    <button type="button" class="btn signin_btn">Apply</button>
+                </div>
+            </div>
          <div class="table-responsive">
           <table class="table">
             <tbody class="stats_table">
